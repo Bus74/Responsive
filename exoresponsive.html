@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--adapter à la vrai resolution des ecrans mobile-->
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="css/exoresponsive.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" >
+        <title>Exercice Responsive Design</title>
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    </head>
+    <body>
+    	<!--Mobile First!-->
+        
+    	   <!--faire Ctrl Shift M pour faire aparaitre une fenetre pour passer sous plusieurs format nottement en version telephone-->
+    		<!--titre ds header
+            nav
+            section en fond gris avcec titre et paragraphe
+            une div pour l image-->
+            
+            <header>
+                <h1>Mon premier titre responsive</h1>
+            </header>
+                    
+            <nav class="main-navigation"><!--toujoiurs penser a faire ca qd il faut faire un menu de navigation et lui creer une class pour css-->
+                <ul>
+                   <li><a href="#">Bouton 1</a></li><!--
+
+                --><li><a href="#">Bouton 2</a></li><!--
+
+                --><li><a href="#">Bouton 3</a></li><!--
+
+                --><li><a href="#">Bouton 4</a></li><!--
+
+                --><li><a href="#">Bouton 5</a></li>
+
+                </ul>
+            </nav>
+
+            <section class="gris">
+                
+                <h2>Lorem ipsum dolor sit</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero exercitationem corporis hic? Ducimus, neque, modi laboriosam officiis ut ipsam dignissimos harum doloremque nesciunt, similique sint porro dolore facilis. Qui, fugit! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero exercitationem corporis hic? Ducimus, neque, modi laboriosam officiis ut ipsam dignissimos harum doloremque nesciunt, similique sint porro dolore facilis. Qui, fugit!
+                </p>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores repellendus architecto provident esse sed, sit nesciunt amet possimus tempora unde exercitationem cumque accusamus maxime ipsum, rerum iusto ea earum accusantium?
+                </p> 
+                 
+            </section>
+            
+            <div class="background-image01"></div>
+            
+            
+            
+            <section class="container">
+
+                <h2>Lorem ipsum dolor sitamet consectetur adipisicing</h2>
+                
+                <div class="articles">
+                    <article class="children">
+                        <h3>Article1</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero exercitationem corporis hic? Ducimus, neque, modi laboriosam officiis ut ipsam dignissimos harum doloremque nesciunt, similique sint porro dolore facilis. Qui, fugit! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero exercitationem corporis hic? Ducimus, neque, modi laboriosam officiis ut ipsam dignissimos harum doloremque nesciunt, similique sint porro dolore facilis. Qui, fugit!</p>
+                    </article>
+                    <article class="children">
+                        <h3>Article2</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero exercitationem corporis hic? Ducimus, neque, modi laboriosam officiis ut ipsam dignissimos harum doloremque nesciunt, similique sint porro dolore facilis. Qui, fugit! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero exercitationem corporis hic? Ducimus, neque, modi laboriosam officiis ut ipsam dignissimos harum doloremque nesciunt, similique sint porro dolore facilis. Qui, fugit!</p>
+                    </article>
+                    <article class="children">
+                        <h3>Article3</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero exercitationem corporis hic? Ducimus, neque, modi laboriosam officiis ut ipsam dignissimos harum doloremque nesciunt, similique sint porro dolore facilis. Qui, fugit! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero exercitationem corporis hic? Ducimus, neque, modi laboriosam officiis ut ipsam dignissimos harum doloremque nesciunt, similique sint porro dolore facilis. Qui, fugit!</p>  
+                    </article>
+                </div>
+      
+            </section>
+
+            <section class="contact">
+            
+                <h2>CONTACTEZ-NOUS</h2>
+                <hr>
+                <form action="cible.php" method="GET">
+                    <div id="prompt">
+                    <p>
+                        <label for="firstname">Nom:</label>
+                        <input id="firstname"  name="firstname" type=""  placeholder="Bob" value="" required>
+                    </p>
+                    <p>
+                        <label for="email">E-mail:</label>
+                        <input id="firstname"  name="firstname" type=""  placeholder="exemple@hotmail.com" value="" required>
+                    </p>
+                    <input class="submit" type="submit" value="Envoyer">
+                    </div>
+                </form>
+            </section>
+
+            <footer class="pied">
+                <nav>
+                    <a href="#">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                    <a href="#">  
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                    <i class="fab fa-pinterest-square"></i>
+                    </a>
+                    <a href="#">
+                    <i class="fab fa-snapchat-square"></i>
+                    </a>
+                </nav>
+
+                <nav>
+                    <a href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal">Contact</a>
+                    <a href="https://https://www.google.fr/">Mentions Legales</a>
+                    <a href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal">C.G.U.</a>
+                </nav>
+            </footer>
+
+    </body>
+</html>
